@@ -66,4 +66,38 @@ This assignment will help you to become familiar with important knowledge in thi
     5. Anomalies and Strategy Adjustments
         - [ ] Relevant differences in metadata across files are identified and evaluated
         - [ ] Explanation of evaluation of whether differences are problematic is reasonable
-        - [ ] 
+        - [ ] Code chunk (if provided) explores the anomalies in a sensible way
+2. Extracting the Text
+    1. Identify Relevant Pages
+        - [ ] Function is written according to specifications -- argument is path, returns pages (either start and end or page range) that have tables
+        - [ ] Table is created with columns as specified
+        
+    2. Read in Relevant Text
+        - [ ] `read_salary_data` function created with arguments `file`, `start`, `end`
+        - [ ] Within the function, only pages between start and end are returned
+        - [ ] Process is reasonable for 2025-26 feport
+        - [ ] function calls `pdf_text` or `read_pdf`
+    3. Plan Your Approach
+        - [ ] List of processing steps is sufficiently detailed to transform text vector into a table with the appropriate columns.
+        - [ ] Steps which are not generalizable are indicated
+        - [ ] Information which is sacrificed is identified clearly
+        - [ ] Answer is properly formatted
+    4. Would Coordinates Help?
+        - [ ] Abstract idea of coordinates for each piece of text is explored
+        - [ ] Reasonable compare/contrast to text vector method is provided
+    5. Explore Package Documentation
+        - [ ] Function to provide coordinates for each text component is identified in either R or Python
+        - [ ] Steps are clearly identified to make use of coordinate information for table processing
+        - [ ] Challenges for working with coordinate data identified
+    6. A Classical Problem
+        - [ ] Salary data obtained for all Classics department employees over 4 reports
+        - [ ] Salary data is formatted for analysis
+        - [ ] Plot comparing salaries over years for each individual is present and contains labels and a title
+        - [ ] Individual salary plot is described with 2-4 sentences
+        - [ ] Plot containing total budget broken out by faculty, administration, and staff  is present and contains labels and a title
+        - [ ] Overall budget plot is described with 2-4 sentences
+        - [ ] Questions provided are addressed in long-form responses with references to the plot. Answers are within the context of the data and the environment in which the data was collected.
+    7. Quality Control
+        - [ ] Answer accounts for other facets of the data not present within a single department
+        - [ ] Answer and reasoning are explained within the context of the problem
+        - [ ] QC measures proposed are reasonable and address problems identified. 

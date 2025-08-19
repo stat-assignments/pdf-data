@@ -104,7 +104,7 @@ Develop a function that takes the path to a PDF file and identifies which pages 
 
 ## Read in Relevant Text
 
-Develop a function `read_salary_data(file, start, end)`which will read in all of the salary data from the pages with tables, using the 2025-2026 salary report as a guide. You should not generalize to other years yet. Use the `pdf_text` function in `tabulapdf` (R) or the `read_pdf` function in the `tabula-py` package (python). 
+Develop a function `read_salary_data(file, start, end)` which will read in all of the salary data from the pages with tables, using the 2025-2026 salary report as a guide. You should not generalize to other years yet. Use the `pdf_text` function in `tabulapdf` (R) or the `read_pdf` function in the `tabula-py` package (python). 
 
 
 ----
